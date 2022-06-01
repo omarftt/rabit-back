@@ -23,6 +23,8 @@ CLOUDINARY_NAME=  ##Provide your own cloudinary name
 CLOUDINARY_API_KEY= ##Provide your own cloudinary api key
 CLOUDINARY_API_SECRET = ##Provide your own cloudinary api secret code
 ```
+If you will upload .pdf files, you must to enable PDF cloudinary permissions
+
 If you dont provide Cloudinary credentials, upload image functionality does not work.
 
 The PORTS used for demo are:
