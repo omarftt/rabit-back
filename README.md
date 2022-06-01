@@ -25,6 +25,10 @@ CLOUDINARY_API_SECRET = ##Provide your own cloudinary api secret code
 ```
 If you dont provide Cloudinary credentials, upload image functionality does not work.
 
+The PORTS used for demo are:
+ 3000: for front end repo
+ 4000: for back end repo
+
 
 ### Run instructions
 
@@ -75,8 +79,26 @@ Here some additional information for endpoints created:
      |-- PUT    /imageUpload/imgmodal      :
      
 ├── /API/CLASSROOM
-     |-- POST    /api/fav/:favsId       : Creates a single fav for favorite list
+     |-- GET    /all      : 
+     |-- POST    /      :
+     |-- GET    /      : 
+     |-- GET    /:id       : 
+     |-- DELETE    /:id      : 
+     |-- PUT    /:id       : 
+     |-- GET    /user/current       : 
+     |-- PUT    /enroll/current       : 
+     |-- PUT   /unenroll/:listId       : 
+     
 ├── /API/HOMEWORK
-     |-- POST    /api/fav/:favsId       : Creates a single fav for favorite list
+     |-- GET    /all       : 
+     |-- POST    /       : 
+     |-- GET    /       : 
+     |-- GET    /:id     : 
+     |-- DELETE    /:id       : 
+     |-- PUT    /:id       : 
+     |-- GET    /user/current      : 
+     |-- GET    /user/homework      :
+     |-- PUT    /imageUpload/current       : 
+     
 
 ```
