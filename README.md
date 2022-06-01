@@ -1,4 +1,4 @@
-## RABIT TECH - FRONT BACKEND
+## RABIT TECH - BACKEND
 
 
 ### Related repositories
