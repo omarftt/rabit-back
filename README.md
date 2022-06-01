@@ -30,15 +30,9 @@ If you dont provide Cloudinary credentials, upload image functionality does not 
 
 To run the project execute the next line:
 ```
-npm start 
-```
-To test the project execute the next line:
-```
 npm start : run application
 npm run dev: run in development environment
 ```
-
-
 
 	
 ### Endpoinst information
